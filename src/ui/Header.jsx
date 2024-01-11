@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import SearchOrder from "../features/order/SearchOrder";
 
 const Header = () => {
   return (
@@ -7,6 +8,7 @@ const Header = () => {
         <Link to="/" className="tracking-widest">
           Fast React Pizza Co.
         </Link>
+        <SearchOrder />
         <p>React</p>
       </header>
     </>
